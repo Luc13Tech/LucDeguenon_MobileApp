@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Luc DEGUENON",
+    "slug": "luc-deguenon",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#020408"
+    },
+    "ios": {
+      "supportsTabletMode": true,
+      "bundleIdentifier": "com.lucdeguenon.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#020408"
+      },
+      "package": "com.lucdeguenon.app"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "react-native-reanimated/plugin"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "your-eas-project-id"
+      }
+    }
+  }
+}
